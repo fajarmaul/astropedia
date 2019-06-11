@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/default_padding_small">
+        <ImageView
+            android:id="@+id/listViewIV"
+            android:layout_width="@dimen/circle_image_diameter"
+            android:layout_height="match_parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/listViewIV"
+            android:paddingLeft="@dimen/default_padding"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:id="@+id/listViewCosntNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Constellation Name"
+                android:textSize="@dimen/font_size_xxlarge"
+                android:textColor="@color/colorBaseBlackText" />
+            <TextView
+                android:id="@+id/listViewMainStarTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:textSize="@dimen/font_size_large"
+                android:layout_below="@id/listViewCosntNameTV"
+                android:text="Main Stars: 5 "/>
+            <TextView
+                android:id="@+id/isPossibleToObserveTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_small"
+                android:layout_below="@id/listViewMainStarTV"
+                android:text="Can be observed with naked eyes"
+                android:textColor="@color/green"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

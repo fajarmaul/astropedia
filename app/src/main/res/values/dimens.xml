@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding_small">8dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_medium_2">20dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+    <dimen name="margin_extra">52dp</dimen>
+    <dimen name="margin_extra_2">76dp</dimen>
+    <dimen name="default_horizontal_divider_size">0.5dp</dimen>
+    <dimen name="card_default_margin">4dp</dimen>
+    <dimen name="card_default_radius">4dp</dimen>
+    <dimen name="card_default_elevation">4dp</dimen>
+    <dimen name="card_extra_elevation">6dp</dimen>
+    <dimen name="circle_image_diameter">84dp</dimen>
+
+    <!--font-->
+    <dimen name="font_size_very_small">10sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_medium">14sp</dimen>
+    <dimen name="font_size_large">16sp</dimen>
+    <dimen name="font_size_xlarge">18sp</dimen>
+    <dimen name="font_size_xxlarge">20sp</dimen>
+    <dimen name="font_size_banner">36sp</dimen>
+    <dimen name="font_size_superbig">48sp</dimen>
+    <dimen name="font_size_hyperbig">72sp</dimen>
+    <dimen name="font_size_inputDataBig">32sp</dimen>
+</resources>

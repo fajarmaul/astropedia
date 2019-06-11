@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_margin="2dp">
+    <ImageView
+        android:id="@+id/gridviewConstIV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlackText"
+            android:alpha="0.7">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/gridviewConstNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cygnus"
+                android:textSize="@dimen/font_size_large"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhiteText"
+                android:gravity="center"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
